@@ -16,8 +16,30 @@
     border-radius: 4px;
     color: white;
 }
+.horizontal-line{
+    width: 80px;
+    height: 4px;
+    background-color:rgb(255, 69,0) ;
+}
+.we-print-what-you-want{
+    font-size: 80px;
+    font-weight: 500;
+}
+.click-edit-button{
+    font-size: 18px;
+}
 
 .gs-button{
     border: none;
     border-radius: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 21px;
+}
+
+.pick-from-the-best{
+    font-size: 20px;
+    font-weight: 700;
 }

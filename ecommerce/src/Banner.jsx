@@ -15,13 +15,14 @@ const Banner = () => {
     <div className="container-fluid p-4 background-grey">
         <div className="row ">
             <div className="col-lg-6 py-4 px-5">
-                <hr className='orange-red'/>
+                <hr className='orange-red horizontal-line'/>
                 <p className='fs-4'> Best Quality Products</p>
-                <p>We Print What You Want</p>
-                <p>Click edit button to change this text.
+                <p className='we-print-what-you-want'>We Print What You Want</p>
+                <p className='click-edit-button'>Click edit button to change this text.
                      Lorem ipsum dolor 
                     sit amet, consectetur adipiscing elit. Sapien.</p>
-                <button className='background-orange-red text-light gs-button'> Get Started</button>
+                <button className='background-orange-red text-light gs-button'>
+                <i class="fa-solid fa-chevron-right"></i> Get Started</button>
             </div>
             <div className="col-lg-6 text-center mx-auto">
                 <img src={image26Free} alt="" className='img-fluid'/>
@@ -34,58 +35,79 @@ const Banner = () => {
             <div className="col-lg-4 mx-auto py-4">
                 <img src={image1} alt="" className='design-of-the-week-images img-fluid' />
                 <p className='text-center'>The Best Tshirts</p>
-                <p className='text-center'>Pick from the best</p>
+                <p className='text-center pick-from-the-best'>Pick from the best</p>
             </div>
             <div className="col-lg-4 mx-auto py-4">
                 <p className='text-center'>The Best Tshirts</p>
-                <p className='text-center'>Pick from the best</p>
+                <p className='text-center pick-from-the-best'>Pick from the best</p>
                 <img src={image2} alt="" className='design-of-the-week-images img-fluid' />
 
             </div>
             <div className="col-lg-4 mx-auto  py-4" >
                 <img src={image3} alt="" className='design-of-the-week-images img-fluid'/>
                 <p className='text-center'>The Best Tshirts</p>
-                <p className='text-center'>Pick from the best</p>
+                <p className='text-center pick-from-the-best'>Pick from the best</p>
             </div>
         </div>
     </div>
 
     <div className="container my-5">
+    <p className='text-center fs-2 fw-bold'>Our Featured Products</p>
+    <hr className='orange-red horizontal-line mx-auto'/>
         <div className="row">
-            <p className='text-center'>Our Featured Products</p>
-            <hr className='orange-red'/>
+            
             <div className="col-lg-3 text-center">
                 <img src={mug} alt="" className='img-fluid'/>
-                <p>Mug</p>
-                <p>Black Printed Coffee Mug</p>
-                <p>KSH 200</p>
+                <p className= ''>Mug</p>
+                <p className='fw-bold'>Black Printed Coffee Mug</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH 200</p>
             </div>
             <div className="col-lg-3 text-center">
                 <img src={mug} alt="" className='img-fluid' />
-                <p>Mug</p>
-                <p>Black Printed Coffee Mug</p>
-                <p>KSH 200</p>
+                <p className= ''>Mug</p>
+                <p className='fw-bold'>Black Printed Coffee Mug</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH 200</p>
             </div>
             <div className="col-lg-3 text-center">
                 <img src={mug} alt="" className='img-fluid'/>
-                <p>Mug</p>
-                <p>Black Printed Coffee Mug</p>
-                <p>KSH 200</p>
+                <p className= ''>Mug</p>
+                <p className='fw-bold'>Black Printed Coffee Mug</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH 200</p>
             </div>
             <div className="col-lg-3 text-center">
                 <img src={mug} alt="" className='img-fluid'/>
-                <p>Mug</p>
-                <p>Black Printed Coffee Mug</p>
-                <p>KSH 200</p>
+                <p className= ''>Mug</p>
+                <p className='fw-bold'>Black Printed Coffee Mug</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH 200</p>
             </div>
         </div>
     </div>
 
-    <div className="container-fluid">
+    <div className="container-fluid background-grey">
         <div className="row">
-            <div className="col-lg-6">
-                <p>Hurry Up!</p>
-                <p>Deal of the Day</p>
+            <div className="col-lg-6 px-5">
+                <p className='py-5 fw-bold'>Hurry Up!</p>
+                <p className='fw-bold'>Deal of the Day</p>
                 <p>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Similique, odit?</p>
                 <button className='background-orange-red btn-shop-now'>SHOP NOW</button>
