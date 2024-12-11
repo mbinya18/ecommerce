@@ -1,0 +1,23 @@
+.orange-red{
+    color: rgb(255, 69,0);
+}
+.background-orange-red{
+    background-color: rgb(255, 69,0);
+}
+.background-grey{
+    background-color: rgb(241, 239, 239);
+}
+
+.background-dark-grey{
+    background-color: rgb(77, 93, 114);
+}
+.btn-shop-now{
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.gs-button{
+    border: none;
+    border-radius: 4px;
+}
