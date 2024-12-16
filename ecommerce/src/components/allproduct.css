@@ -1,0 +1,26 @@
+.filters-col{
+    border-right: 2px solid gainsboro;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.hr-filter{
+    width: 250px;
+    height: 5px;
+    border: 2px solid rgb(236, 82, 10);
+}
+.apply-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(247, 55, 8, 0.863);
+    font-size: 15px;
+    
+}
+.background-orange{
+    background-color: rgb(236, 82, 10)
+
+}
+.orange{
+    color: rgb(236, 82, 10);
+}

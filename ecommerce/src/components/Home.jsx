@@ -1,15 +1,16 @@
 import React from 'react'
-import "./banner.css"
-import image26Free from './assets/image26-free.png';
-import image1 from './assets/image-01.jpg'
-import image2 from './assets/image-02.jpg'
-import image3 from './assets/image-03.jpg'
-import mug from './assets/mug-white-300x300.jpg'
-import tshirt from './assets/tshirt.jpg'
+import "./home.css"
+import image26Free from '../assets/image26-free.png';
+import image1 from '../assets/image-01.jpg'
+import image2 from '../assets/image-02.jpg'
+import image3 from '../assets/image-03.jpg'
+import mug from '../assets/mug-white-300x300.jpg'
+import tshirt from '../assets/tshirt.jpg'
+import client from '../assets/client.jpg'
+import featured from '../assets/featured.png'
 
 
-
-const Banner = () => {
+const Home = () => {
   return (
     <>
     <div className="container-fluid p-4 background-grey">
@@ -106,9 +107,9 @@ const Banner = () => {
     <div className="container-fluid background-grey">
         <div className="row">
             <div className="col-lg-6 px-5">
-                <p className='py-5 fw-bold'>Hurry Up!</p>
-                <p className='fw-bold'>Deal of the Day</p>
-                <p>Lorem, ipsum dolor sit amet consectetur 
+                <p className='fw-bold hurry-up'>Hurry Up!</p>
+                <p className='fw-bold deal-of-the-day'>Deal of the Day</p>
+                <p className='fw-bold'>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Similique, odit?</p>
                 <button className='background-orange-red btn-shop-now'>SHOP NOW</button>
 
@@ -120,123 +121,145 @@ const Banner = () => {
     </div>
 
     <div className="container">
+    <p className='text-center pt-5 fw-bold fs-2'>Most Loved Products</p>
+    <hr className=' mx-auto horizontal-line'/>
         <div className="row">
-            <p className='text-center'>Most Loved Products</p>
-            <hr className='orange-red'/>
+           
             <div className="col-lg-3 text-center mx-auto">
                 <img src={tshirt} alt="" className='img-fluid'/>
                 <p>Tshirts</p>
-                <p>Printed Green</p>
-                <p>KSH. 400</p>
+                <p className='fw-bold'>Printed Green</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH. 400</p>
             </div>
             <div className="col-lg-3 text-center mx-auto">
                 <img src={tshirt} alt="" className='img-fluid'/>
                 <p>Tshirts</p>
-                <p>Printed Green</p>
-                <p>KSH. 400</p>
+                <p className='fw-bold'>Printed Green</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH. 400</p>
             </div>
             
             <div className="col-lg-3 text-center mx-auto">
                 <img src={tshirt} alt="" className='img-fluid'/>
                 <p>Tshirts</p>
-                <p>Printed Green</p>
-                <p>KSH. 400</p>
+                <p className='fw-bold'>Printed Green</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH. 400</p>
             </div>
 
             <div className="col-lg-3 text-center mx-auto">
                 <img src={tshirt} alt="" className='img-fluid'/>
                 <p>Tshirts</p>
-                <p>Printed Green</p>
-                <p>KSH. 400</p>
+                <p className='fw-bold'>Printed Green</p>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p className='fw-bold'>KSH. 400</p>
             </div>
             
         </div>
     </div>
 
     <div className="container">
+    <p className='text-center pt-5 fw-bold fs-2'>Our Happy Clients</p>
+    <hr  className='horizontal-line mx-auto'/>
         <div className="row">
-            <p className='text-center'>Our Happy Clients</p>
-            <hr  className='orange-red'/>
+            
             <div className="col-lg-4 ">
+                <div className='mx-2 client'>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Quasi in saepe hic aperiam animi excepturi provident 
                     debitis quo vel nobis?</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
 
-                <div className='d-flex'>
+                <div className='d-flex py-3'>
                 <div className="col">
-                    <p>hello</p>
+                    <img src={client}></img>
                 </div>
-                <div className="col">
-                    <p>hello2</p>
+                <div className="col py-2">
+                    <p>John Doe</p>
+                </div>
                 </div>
                 </div>
             </div>
 
             <div className="col-lg-4 ">
+                <div className='mx-2 client'>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Quasi in saepe hic aperiam animi excepturi provident 
                     debitis quo vel nobis?</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
 
-                <div className='d-flex'>
+                <div className='d-flex py-3'>
                 <div className="col">
-                    <p>hello</p>
+                <img src={client}></img>
                 </div>
-                <div className="col">
-                    <p>hello2</p>
+                <div className="col py-2">
+                    <p>John Smith</p>
+                </div>
                 </div>
                 </div>
             </div>
 
             <div className="col-lg-4 ">
+                <div className='mx-2 client'>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Quasi in saepe hic aperiam animi excepturi provident 
                     debitis quo vel nobis?</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
 
-                <div className='d-flex'>
+                <div className='d-flex py-3'>
                 <div className="col">
-                    <p>hello</p>
+                <img src={client}></img>
                 </div>
-                <div className="col">
-                    <p>hello2</p>
+                <div className="col py-2">
+                    <p>Jane Smith</p>
+                </div>
                 </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div className="container text-center my-5">
-        <div className="row">
-            <div className="col-lg">Featured</div>
-            <div className="col-lg">Featured</div>
-            <div className="col-lg">Featured</div>
-            <div className="col-lg">Featured</div>
-            <div className="col-lg">Featured</div>
+    <div className="container text-center py-5">
+        <div className="row ">
+            <div className="col-lg fw-bold">Featured In:</div>
+            <div className="col-lg"><img src={featured} alt="" /></div>
+            <div className="col-lg"><img src={featured} alt="" /></div>
+            <div className="col-lg"><img src={featured} alt="" /></div>
+            <div className="col-lg"><img src={featured} alt="" /></div>
+
         </div>
     </div>
 
-    <div className="container-fluid footer background-dark-grey text-light">
-        <div className="row py-5">
-            <div className="col-lg">
-              Footer  
-            </div>
-            <div className="col-lg">
-              Footer  
-            </div>
-            <div className="col-lg">
-              Footer  
-            </div>
-            <div className="col-lg">
-              Footer  
-            </div>
-        </div>
-        <hr className='orange-red'/>
-        <div className="row text-center py-5">
-            <div className="col-lg">2024</div>
-            <div className="col-lg">2024</div>
-        </div>
-    </div>
+    
     </>
   )
 }
 
-export default Banner
+export default Home

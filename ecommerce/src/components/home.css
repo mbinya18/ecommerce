@@ -1,6 +1,9 @@
 .orange-red{
     color: rgb(255, 69,0);
 }
+.white{
+    color: white;
+}
 .background-orange-red{
     background-color: rgb(255, 69,0);
 }
@@ -42,4 +45,23 @@
 .pick-from-the-best{
     font-size: 20px;
     font-weight: 700;
+}
+.hurry-up{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.deal-of-the-day{
+    font-size: 30px;
+}
+.btn-shop-now{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.client{
+    border: 2px solid rgb(243, 238, 238);
+    box-shadow: 10px 10px 5px whitesmoke;
+
+    border-radius: 10px;
+    padding: 10px;
 }
