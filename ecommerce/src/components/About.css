@@ -4,3 +4,35 @@
 .background-white{
     background-color: white;
 }
+.background-orange{
+    background-color: rgb(197, 38, 38);
+}
+.color-white{
+    color: white;
+}
+.get-best-offers{
+    font-size: 35px;
+    font-weight: 600;
+}
+.gt-button{
+    border: white solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    
+
+}
+.horizontal-line{
+    width: 80px;
+    height: 4px;
+    background-color:rgb(255, 69,0) ;
+}
+.best-quality-printed{
+    font-size: 40px;
+    font-weight: 600;
+}
+.meet-our-team{
+    font-size: 35px;
+    font-weight: 600;
+}
