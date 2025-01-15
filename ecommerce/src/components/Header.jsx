@@ -34,10 +34,10 @@ const Header = () => {
             Account
           </a>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" href="#" to={"/action"}>Action</Link></li>
-            <li><Link className="dropdown-item" href="#" to={"another"}>Another action</Link></li>
+            <li><Link className="dropdown-item" href="#" to={"/myAccount"}>My Account</Link></li>
+            
             <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" href="#" to={"something"}>Something else here</Link></li>
+            <li><Link className="dropdown-item" href="#" to={"/cart"}>Cart</Link></li>
           </ul>
         </li>
         </ul>
