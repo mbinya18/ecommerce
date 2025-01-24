@@ -7,9 +7,9 @@ const Cart = () => {
     <div className="container">
         <div className="row">
             <div className="col">
-                <hr />
-                <p>Your cart is currently empty.</p>
-                <button>RETURN TO SHOP</button>
+                <hr className='hr-line'/>
+                <p className='px-4'>Your cart is currently empty.</p>
+                <button className='return-to-shop px-4 py-2'>RETURN TO SHOP</button>
             </div>
         </div>
     </div>
